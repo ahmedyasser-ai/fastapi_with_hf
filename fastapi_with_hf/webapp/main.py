@@ -1,9 +1,9 @@
-from transformers import pipline
+from transformers import pipeline
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from pydantic import BaseModel
 
-generator = pipline('text-generation', model='gpt2')
+generator = pipeline('text-generation', model='gpt2')
 
 app = FastAPI()
 
