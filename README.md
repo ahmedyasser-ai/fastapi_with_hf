@@ -20,3 +20,8 @@ docker build -t huggingface:local .
 docker run -i -p 8000:8000 huggingface:local
 
 -i refers to that you want the container to be interactive and -p refers to that you want it to be exposed over the port 8000 and finally you give it the name and the label of your container which is huggingface:local
+
+
+To pull the docker image you can use this command:
+
+docker pull ghcr.io/ahmedyasser-ai/fastapi_with_hf:master
