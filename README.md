@@ -1,5 +1,5 @@
 # fastapi_with_hf
-Containerized Hugging Face transformers project using fastapi to generate text depending on a given text and automatically registering our container into the github container registry using GitHub Actions.
+Containerized Hugging Face transformers project using fastapi to generate text depending on a given text and automatically registering our container into the GitHub container registry using GitHub Actions.
 
 Our request
 ![Screenshot (147)](https://github.com/ahmedyasser-ai/fastapi_with_hf/assets/72948428/155523c1-de24-4023-92e5-9bebaf9f3ebf)
