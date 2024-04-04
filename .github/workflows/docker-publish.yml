@@ -14,7 +14,10 @@ on:
     tags: [ 'v*.*.*' ]
   pull_request:
     branches: [ "master" ]
-
+  #if i uncomment the below line and comment out the above lines the build process will not be executed when there is a new commit
+  #and this workflow_dispatch will allow a manual run for this script
+  #workflow_dispatch:
+  
 env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
