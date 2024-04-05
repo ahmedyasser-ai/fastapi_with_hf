@@ -54,4 +54,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ahmedyasser-ai/fastapi_with_hf:latest
+          tags: ahmedyasser/fastapi_with_hf:latest
+        env:
+            DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+            DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
